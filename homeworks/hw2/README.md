@@ -30,3 +30,46 @@ $ ./a.out
 * Variable: string
 * Outputs: cout
 * Others: cin.ignore()
+
+
+
+
+## Key Features
+
+```
+$ title
+$ first name
+$ last name
+$ DOB 
+$ BIO
+
+```
+
+## Key Features
+
+```
+$ Input:
+Enter title for the name 
+Mr
+Enter your first name 
+Sanchit 
+Enter your last name 
+Bhargava
+Enter your DOB month 
+August
+Enter your DOB date 
+27
+Enter your DOB year 
+1997
+
+```
+
+```
+$ Output:
+Mr Sanchit Bhargava
+    DOB:August\27\1997
+    BIO:Hi My name is Sanchit Bhargava
+```
+
+
+
