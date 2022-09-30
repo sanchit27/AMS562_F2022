@@ -45,8 +45,6 @@ $ BIO
 
 ```
 
-## Key Features
-
 ```
 $ Input:
 Enter title for the name 
