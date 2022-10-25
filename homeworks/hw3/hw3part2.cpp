@@ -38,15 +38,15 @@ int main(int argc, char *argv[]) {
   float ymax;
   float zmax;
   
-  cout<<"x"<<x[0];
-  cout<<"x"<<y[0];
-  cout<<"x"<<z[0];
+  cout<<"x"<<x[0]<<endl;
+  cout<<"y"<<y[0]<<endl;
+  cout<<"x"<<z[0]<<endl;
 
 
   // determine the extreme arc lengths
 for(int i=0;i<N;i++)
   {
-    float length=acos((x[0]*x[i]+y[0]*y[i]+z[0]*z[i]/sqrt(x[0] * x[i] + y[0] * y[i] + z[0] * z[i])));
+    float length=acos((x[0]*x[i]+y[0]*y[i]+z[0]*z[i]));
     if(minimum>length)
     {
         minimum=length;
@@ -64,6 +64,7 @@ for(int i=0;i<N;i++)
 
     }
   }
+  //cout<<endl;
   cout<<"minimum "<<minimum<<endl;
   cout<<"minimum x "<<xmin<<endl;
   cout<<"minimum y "<<ymin<<endl;
