@@ -93,5 +93,5 @@ Array operator+(const Array &lhs, const Array &rhs);
 
 // subtraction of two arrays
 Array operator-(const Array &lhs, const Array &rhs);
-//End
+
 #endif
