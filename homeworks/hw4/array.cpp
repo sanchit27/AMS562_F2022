@@ -2,17 +2,17 @@
 #include <iostream>
 #include <math.h>
 
-Array::Array(): _data{nullptr}, _size {0} {
+Array::Array(): _data(nullptr), _size (0) {
     //Defining constructor
 }
-Array:: Array(const Array &other): _size{other._size}{
+Array:: Array(const Array &other): _size(other._size){
     _data = new double[_size];
     for (int i = 0; i < _size; i++) {
         _data[i] = other._data[i];
     }
 }
 
-Array::Array (unsigned number, double value): _size{number} {
+Array::Array (unsigned number, double value): _size(number) {
     _data = new double[_size];
     for (int i = 0; i < _size; i++) { 
         _data[i] = value;
@@ -35,11 +35,11 @@ const double *Array::data() const {
 }
 
 void Array::copy(const Array &rhs) { 
-   /* if (_size != rhs._size){ 
+    if (_size != rhs._size){ 
         delete[] _data;
         _data = new double[rhs._size]; 
         _size = rhs._size;
-    }*/
+    }
 
     for (unsigned i = 0; i < _size; ++i) { 
         _data[i]= rhs._data[i];
