@@ -1,8 +1,9 @@
 #ifndef _ARRAY_HPP
 #define _ARRAY_HPP
 
-class Array {
- public:
+class Array
+{
+public:
   // default constructor
   // overwrite this one to set data and size to
   // empty status
@@ -75,15 +76,15 @@ class Array {
   // operators
 
   // accessing operator
-  double &      operator[](const unsigned index);
+  double &operator[](const unsigned index);
   const double &operator[](const unsigned index) const;
 
   // assignment, hint call resize if other and "this" have difference sizes
   Array &operator=(const Array &other);
 
- private:
-  double * _data;  ///< data pointer
-  unsigned _size;  ///< length of the array
+private:
+  double *_data;  ///< data pointer
+  unsigned _size; ///< length of the array
 };
 
 // free functions
