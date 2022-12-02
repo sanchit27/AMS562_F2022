@@ -18,7 +18,7 @@ To clean all object and executable binaries, just type `make clean`.
 
 Verified Test cases status is attached below:
 
-<img width="812" alt="Screenshot 2022-11-28 at 4 27 42 PM" src="https://user-images.githubusercontent.com/18355760/204385111-01813e6c-edc5-4240-8695-e7f397edd2a2.png">
+<img width="812" alt="Screenshot 2022-12-02 at 12 39 48 PM" src="https://user-images.githubusercontent.com/18355760/205352987-102e2eed-1128-416d-a01b-778363f5fb3c.png">
 
 #  Developer Branches
 

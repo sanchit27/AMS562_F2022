@@ -62,7 +62,7 @@ int main()
 
     std::cout << "Array operator- :" << std::endl;
     Array arr6;
-    arr6 = operator+(arr5, arr4);
+    arr6 = operator-(arr5, arr4);
     arr6.print();
 
     return 0;
